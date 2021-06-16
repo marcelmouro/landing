@@ -1,0 +1,41 @@
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+label {
+    font: 'Fira Sans', sans-serif;
+    color: #152228;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+input {
+    margin: .4rem;
+}
+form {
+	font-family: Overpass;
+  	color: #404042;
+	margin: 0 auto;
+	width: 430px;
+	padding:1em;
+	}
+
+.botao-azul {
+background-color: #191970;
+color:  white;
+padding:  16px 48px;
+border-radius:  15px;
+display: inline-block;
+text-decoration: none;
+}
+
+.botao-azul:hover {
+background-color: #47597E;
+color:  white;
+}
+
+.centralizacao {
+  text-align:center;
+}

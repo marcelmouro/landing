@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2mão - Cadastro</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="telacadastrocss.css">
+</head>
+<body>
+  <h1 style="text-align:center">Para realizar seu cadastro, precisamos de alguns dados:</h1>
+
+    <!-- Code your Cards section -->
+    <form>
+    	<p><label for="nome">Nome Completo:</label><input type="text" id="nome" /></p>
+    	<p><label for="cpf">CPF:</label><input type="text" name="cpf" \pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+			title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+		<input type="submit" value="Verificar"></p>
+		<p><label for="datanasc">Data de Nascimento:</label><input type="text" name="datanasc" \pattern="\d{2}\/\d{2}\/\d{4}" \
+			title="Digite a sua data de nascimento no formato: xx/xx/xxxx"></p>
+			<p><label for="telefone">Telefone:</label><input type="text" name="telefone" \pattern="(\d{2}\)\d{5}\-\d{4}" \
+			title="Digite seu telefone no formato: (xx)xxxxx-xxxx"></p>
+		<p><label for="email">E-mail:</label><input type="text" id="email" /></p>
+		<p><label for="senha">Senha:</label><input type="text" id="senha" /></p>
+		<p><label for="confsenha">Confirme sua Senha:</label><input type="text" id="confsenha" /></p>
+		<div class="centralizacao"><a class="botao-azul" href="https://www.lewagon.com/">Criar Cadastro</a></div>
+	</form>
+
+</body>
+</html>
